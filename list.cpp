@@ -3,9 +3,9 @@
 #include <list>
 using namespace std;
 
-void display(list<int> &lst)// for Display list
+void display(list<int> &lst) // for Display list
 {
-	list<int>::iterator it;// Creating iterater named it
+	list<int>::iterator it; // Creating iterater named it
 	for (it = lst.begin(); it != lst.end(); it++)
 	{
 		cout << *it << " ";
@@ -13,9 +13,9 @@ void display(list<int> &lst)// for Display list
 }
 
 int main()
-{	
+{
 	list<int> list1; // Declaration of list
-	int element,size;
+	int element, size;
 	cout << "Enter the size of your list: ";
 	cin >> size;
 	for (int i = 0; i < size; i++)
@@ -24,7 +24,7 @@ int main()
 		cin >> element;
 		list1.push_back(element); // adding element in list
 	}
-	cout << "You entered: ";
+	cout << "Element of list is: ";
 	display(list1);
 	return 0;
 }

@@ -1,4 +1,4 @@
-//About vector in standerd template library
+//About vector in standard template library
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -24,7 +24,7 @@ int main()
 		cin >> element;
 		vec1.push_back(element); // adding element in vector
 	}
-	cout << "You entered: ";
+	cout << "Elements of vector is: ";
 	display(vec1);
 	return 0;
 }

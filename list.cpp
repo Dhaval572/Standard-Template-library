@@ -1,4 +1,4 @@
-// Creating linked list in c++ using standerd template library
+// Creating linked list in c++ using standard template library
 #include <iostream>
 #include <list>
 using namespace std;
@@ -35,7 +35,7 @@ Syntex to declare list using stl:
 list<data_type> list_name;
 
 -> if you want to create linked list using stl then you should have to include 'list' library (#inclue <list>)
--> iterator is special object which points to the element of linked list,vector etc;
+-> iterator is special object which points to the element of linked list,vector etc
 -> begin() points first element of list
 -> end() points last element of list
 

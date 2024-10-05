@@ -1,4 +1,4 @@
-//About vector in standard template library
+// About vector in standard template library
 #include <iostream>
 #include <vector>
 using namespace std;

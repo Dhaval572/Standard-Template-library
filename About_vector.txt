@@ -1,0 +1,36 @@
+About vector:
+
+	vector in a container like array but is is resizable.
+
+	It represents a dynamic array that can grow or shrink in size, allowing for efficient random access and modification of its elements.
+
+Features of vector:
+
+1. Dynamic Size: 
+
+   -> Automatically grows or shrinks as elements are added or removed.
+
+2. Random Access: 
+
+   -> Allows accessing elements using an index, like an array.
+
+3. Automatic Memory Management: 
+
+   -> Handles memory allocation and deallocation automatically.
+
+4. Versatile Data Storage: 
+
+   -> Can store various data types (basic types, classes, etc.).
+
+5. Easy Element Manipulation: 
+
+   -> Supports adding, removing, and inserting elements.
+
+6. Size and Capacity: 
+
+   -> Methods to check current size (size()) and capacity (capacity()).
+
+7. Iterators: 
+
+   -> Provides iterators for easy traversal of elements.
+   ( Note : iterator is like a pointer but it is not pointer it points to the object )

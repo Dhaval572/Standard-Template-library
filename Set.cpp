@@ -77,6 +77,15 @@ About Set in c++
 
 		Lower Bound/Upper Bound: Finds the first element that is not less than a given value or the first element greater than a given value.
 
+	Time complexity of set methods:
+
+		Insert: O(log n)
+		Erase: O(log n)
+		Find: O(log n)
+		Empty: O(1)
+		Size: O(1)
+		Iterate: O(n)
+
 	So, this was some information about set in c++.
 
 	So, i hope you understand!

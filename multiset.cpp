@@ -45,6 +45,8 @@ int main()
 	s1.erase(27);
 	printMethod1(s1);
 
+	cout << "Size of set is : " << s1.size(); // Will return 3 cause of all 27 are deleted
+
 	return 0;
 }
 /*

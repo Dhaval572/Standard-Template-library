@@ -20,6 +20,9 @@ int main()
 		cout << (*it).first << ' ' << (*it).second << endl; // Print key value pairs
 	}
 
+	// Access an element by key
+	cout << "Key Dhaval has value: " << nameEno["Dhaval"]; // Will return 147 
+
 	return 0;
 }
 /*

@@ -13,9 +13,9 @@ int main()
 	gameName["Hitman"] = "Game series";
 
 	// Insert using insert()
-	gameName.insert(make_pair("God of war", "Action Game series"));
-	gameName.insert(make_pair("GTA", "Open World game"));
-
+	gameName.insert(make_pair("God of war", "Action Game series")); // Syntax 1
+	
+	gameName.insert( {"GTA", "Open World game"} ); // Syntax 2
 	map<string, string> :: iterator it; // Declaration of iterator 
 
 	// Print all elements of map
@@ -50,11 +50,15 @@ Insert in map:
 
 		1). Using subscript operator '[]'
 
-			map_name[Key] = value;
+			map_name[Key] = value; 							( Line no. 10 )
 
 		2).	Using insert()
 
-			map_name.insert(make_pair( key, value ));
+			There are two syntax to use insert():
+
+			1).	map_name.insert(make_pair( key, value )); 	( Line no. 16 )
+
+			2). map_name.insert( { Key, value } );			( Line no. 18 )		
 
 Deletion in map:
 
@@ -62,7 +66,7 @@ Deletion in map:
 
 		Syntax:
 
-			map_name.erase(key);
+			map_name.erase(key);							( Line no. 28 )
 
 
 	So, this was inserion and deletion methods in map.

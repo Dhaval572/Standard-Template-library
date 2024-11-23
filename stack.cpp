@@ -79,11 +79,19 @@ About stack:
 
 	size():
 
-		This function returns the size of stack.
+		This function returns the size of stack. ( Line no. 38 )
 
 		Syntax:
 
 			stack_name.size();
+
+	top():
+
+		Returns the value of top element. ( Line no. 40 )
+
+		Syntax:
+
+			stack_name.top();
 
 	So, this was implimentation of stack using stl lib.
 

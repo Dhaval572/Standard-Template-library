@@ -1,7 +1,22 @@
 // Roman to integer number conversion
 #include <iostream>
 #include <unordered_map>
+#include <unordered_set>
 using namespace std;
+
+// Checks that given number is roman or not
+bool isValidRoman(string s)
+{
+    unordered_set<char> romanDigits = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
+
+    for(char c : s)
+    {
+        if(romanDigits.find(c) == romanDigits.end())
+            return false;
+    }
+
+    return true;
+}
 
 int romanToInt(string s)
 {
@@ -35,10 +50,13 @@ int main()
     int romanDigits[7] = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
 
     string s;
-    cout << "Enter the numbers in roman: ";
+    cout << "Enter the numbers in roman( In capital ): ";
     cin >> s;
 
-    cout << romanToInt(s);
+    if(!isValidRoman(s))
+        cout << "Invalid roman entered!\nPlease try with valid roman" ;   
+    else
+        cout << "The integer value is: " << romanToInt(s);
     
     return 0;
 }

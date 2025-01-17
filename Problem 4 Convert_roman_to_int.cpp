@@ -36,6 +36,8 @@ int main()
 
     string s;
     cout << "Enter the numbers in roman: ";
+    cin >> s;
+    
     return 0;
 }
 /*

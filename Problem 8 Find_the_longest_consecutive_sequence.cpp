@@ -70,12 +70,12 @@ int main()
 Dry Run Table:
 
 +-----+--------+--------------+-------------------+-------------------+------------------+
-| Step| Number | num-1 Exists?| Start of Sequence?|   Sequence Found  |Longest Updated?  |
+| Step| Number | num-1 Exists?| Start of Sequence?|   Sequence Found  | Longest Updated? |
 +-----+--------+--------------+-------------------+-------------------+------------------+
 |  1  |  100   |     No       |       Yes         |       [100]       |  No (longest=1)  |
 |  2  |   4    |   Yes (3)    |        No         |         -         |        No        |
 |  3  |  200   |     No       |       Yes         |       [200]       |  No (longest=1)  |
-|  4  |   1    |     No       |       Yes         |  [1, 2, 3, 4]     | Yes (longest=4)  |
+|  4  |   1    |     No       |       Yes         |    [1, 2, 3, 4]   | Yes (longest=4)  |
 |  5  |   3    |   Yes (2)    |        No         |         -         |        No        |
 |  6  |   2    |   Yes (1)    |        No         |         -         |        No        |
 +-----+--------+--------------+-------------------+-------------------+------------------+

@@ -3,6 +3,20 @@
 #include <memory>
 using namespace std;
 
+/*
+    +----------------------------------+
+    | Advantages over the normal array |
+    +----------------------------------+
+
+    1. Same speed as raw arrays for access (arr[i]) But allocates from heap
+    2. Automatic Memory Management
+    3. Type Safety
+    4. Zero-cost ownership transfer (O(1)) ( cause of move sementics )
+    5. Exception Safety
+    6. No ambiguity about who owns/deletes memory
+    7. Zero overhead (compiler optimizes unique_ptr to raw pointer)
+*/
+
 template <typename T>
 // Modern c++ approach
 class Array

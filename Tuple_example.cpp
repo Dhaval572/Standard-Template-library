@@ -1,4 +1,4 @@
-// About example in modern c++
+// Tuple example in modern c++
 #include <iostream>
 #include <tuple>
 using namespace std;
